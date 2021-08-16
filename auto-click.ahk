@@ -1,4 +1,6 @@
 #MaxThreadsPerHotkey 3
+; Send, e
+; Click
 
 Capslock::
 Toggle := !Toggle
