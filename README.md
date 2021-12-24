@@ -4,7 +4,7 @@
 * Automatically click the Left Mouse Button or E key several times a second by using Capslock
 
 ### custom
-* Redirects the Capslock to another key combination (Proximity chat for Insurgency: Sandstorm)
+* Binds Capslock to RCtrl
 * Alt + Backtick automatically types " site:reddit.com "
 
 ### jitter
