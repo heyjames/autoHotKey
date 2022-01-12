@@ -5,6 +5,6 @@
 Send {Blind}{space}
 
 ;Then delay for a duration of one second [change to taste]
-Sleep 180
+Sleep 80
 
 return
