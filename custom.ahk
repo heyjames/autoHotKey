@@ -1,7 +1,7 @@
-Capslock::F9
+Capslock::o
 
 ;Mouse Forward
-XButton2::F9 
+XButton2::- 
 
 ;Alt+`
 !`::SendInput, {Space}site:reddit.com{Space}
