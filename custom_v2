@@ -1,0 +1,31 @@
+; --- Fully disable default CapsLock toggle behavior ---
+SetCapsLockState("AlwaysOff")
+CapsLock::VKFF  ; Redirect CapsLock key to a dummy key so it doesn't toggle caps
+
+; --- CapsLock Toggle ---
+CapsLock:: {
+    Send("{Blind}{o down}")
+    KeyWait("CapsLock")  ; Wait for key to be released
+    Send("{Blind}{o up}")
+}
+
+PressE() {
+    Send("e")
+}
+
+ClickLeft() {
+    Click("left")
+}
+
+; --- Alt + Backtick: Send 'site:reddit.com' ---
+!`:: {
+    SendText(" site:reddit.com ")
+}
+
+; --- Mouse Forward Button: Send "i" ---
+XButton2::Send("{Blind}{i down}")
+XButton2 up::Send("{Blind}{i up}")
+
+; --- CapsLock: Push-to-Talk with "o" ---
+;CapsLock::Send("{Blind}{o down}")
+;CapsLock up::Send("{Blind}{o up}")
